@@ -3,10 +3,14 @@
 /*---------------------------- Variables (state) ----------------------------*/
  let start, game, end
 /*------------------------ Cached Element References ------------------------*/
-const startButton = document.qu
+const startButton = document.querySelector('start-button')
+
 
 /*----------------------------- Event Listeners -----------------------------*/
 // document.addEventListener('button')
 
 
 /*-------------------------------- Functions --------------------------------*/
+function startGame(){
+
+}
