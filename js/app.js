@@ -5,7 +5,7 @@
 /*------------------------ Cached Element References ------------------------*/
 const startButton = document.querySelector('#start-button')
 const containerOne = document.querySelector('#text')
-const optionButtonsEl = document.querySelector
+const optionButtonsEl = document.querySelector('#option-buttons')
 
 
 /*----------------------------- Event Listeners -----------------------------*/
