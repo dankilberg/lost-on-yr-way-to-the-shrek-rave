@@ -2,11 +2,15 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 button {
 background-color: aqua;
 }
 
+#start-button {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+}
