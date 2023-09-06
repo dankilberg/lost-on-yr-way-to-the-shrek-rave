@@ -5,11 +5,11 @@ const story = [
     options: [
       {
         prompt: "Index 1",
-        index: 1
+        nextIndex: 1
       },
       {
         prompt: "Index 2",
-        index: 2
+        nextIndex: 2
       }
     ]
   },
@@ -18,11 +18,11 @@ const story = [
     options: [
       {
         prompt: "Index 3",
-        index: 3
+        nextIndex: 3
       },
       {
         prompt: "Index 4",
-        index: 4
+        nextIndex: 4
       }
     ]
   },
@@ -31,11 +31,11 @@ const story = [
     options: [
       {
         prompt: "Index4",
-        index: 5
+        nextIndex: 5
       },
       {
         prompt: "Index 6",
-        index: 6
+        nextIndex: 6
       }
       
     ]
@@ -45,11 +45,11 @@ const story = [
     options: [
       {
         prompt: "Index 7",
-        Index: 7
+        nextIndex: 7
       },
       {
         prompt: "Index 8",
-        index: 8
+        nextIndex: 8
       }
     ]
   },
@@ -63,7 +63,8 @@ const optionButtonsEl = document.querySelector('#option-buttons')
 const button = document.createElement('button')
 const title = document.querySelector('#title1')
 
-/*----------------------------- Event Listeners -----------------------------*/
+/*----------------------------- Event Listeners
+ -----------------------------*/
 // document.addEventListener('button')
 startButton.addEventListener('click', startGame)
 
@@ -98,10 +99,20 @@ currentState.options.forEach((option, index)=>
 })
 ////currentState forEach? (blank, index)
 ////button pull from index
-//add method/
-
+//add method?
+//how to get buttons
 }
-function select(event){
+
+
+function select(event) {
+  const indexSelect = event.target.dataset.index
+  const currentScene = story[currentIndex]
+  const selectOption = currentScene.options[indexSelect]
+  
+  if (selectOption) {
+    currentIndex = selectOption.nextIndex
+    showText()
+  }
 
 }
 //event
