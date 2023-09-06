@@ -101,8 +101,11 @@ currentState.options.forEach((option, index)=>
 //add method/
 
 }
-function select(){
+function select(event){
+
 }
+//event
+//click?
 //displays options
 
 //story text 
