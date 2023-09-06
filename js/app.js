@@ -1,54 +1,54 @@
 /*-------------------------------- Constants --------------------------------*/
 const story = [
   {
-    prompt: "Lorem ipsum dolor sit amet",
+    prompt: "The Shrek rave starts in an hour and even though you already kind of look like Shrek you are nowhere near being Shrek. What do you do?",
     options: [
       {
-        prompt: "Mauris eleifend ipsum id justo interdum cursus.",
+        prompt: "Index 1",
         index: 1
       },
       {
-        prompt: "Sed diam orci, pellentesque et lorem quis.",
+        prompt: "Index 2",
         index: 2
       }
     ]
   },
   {
-    prompt: "Lorem ipsum dolor sit amet",
+    prompt: "Prompt 2",
     options: [
       {
-        prompt: "Mauris eleifend ipsum id justo interdum cursus.",
+        prompt: "Index 3",
         index: 3
       },
       {
-        prompt: "Sed diam orci, pellentesque et lorem quis.",
+        prompt: "Index 4",
         index: 4
       }
     ]
   },
   {
-    prompt: "Lorem ipsum dolor sit amet",
+    prompt: "Prompt 3",
     options: [
       {
-        prompt: "Mauris eleifend ipsum id justo interdum cursus.",
+        prompt: "Index4",
         index: 5
       },
       {
-        prompt: "Sed diam orci, pellentesque et lorem quis.",
+        prompt: "Index 6",
         index: 6
       }
       
     ]
   },
   {
-    prompt: "Lorem ipsum dolor sit amet",
+    prompt: "Prompt 4",
     options: [
       {
-        prompt: "Mauris eleifend ipsum id justo interdum cursus.",
+        prompt: "Index 7",
         Index: 7
       },
       {
-        prompt: "Sed diam orci, pellentesque et lorem quis.",
+        prompt: "Index 8",
         index: 8
       }
     ]
@@ -60,7 +60,8 @@ const story = [
 const startButton = document.querySelector('#start-button')
 const textEl = document.querySelector('#text')
 const optionButtonsEl = document.querySelector('#option-buttons')
-
+const button = document.createElement('button')
+const title = document.querySelector('#title1')
 
 /*----------------------------- Event Listeners -----------------------------*/
 // document.addEventListener('button')
@@ -69,6 +70,7 @@ startButton.addEventListener('click', startGame)
 /*-------------------------------- Functions --------------------------------*/
 function startGame(){ 
   startButton.style.display = 'none'
+  title.style.display = 'none'
   showText()
   // textEl.style.display = 'block'
   // optionButtonsEl.style.display = 'block'
@@ -87,15 +89,15 @@ textEl.innerHTML = currentState.prompt
 optionButtonsEl.style.display = 'block'
 optionButtonsEl.innerHTML = ''
 
-currentState.options.forEach((option, index)=>{
-  const button = document.createElement('button')
+currentState.options.forEach((option, index)=>
+{
   button.classList.add.apply('btn')
   button.textContent = option.prompt
   button.dataset.index = index
   optionButtonsEl.append(button)
 })
-//currentState forEach? (blank, index)
-//button pull from index
+////currentState forEach? (blank, index)
+////button pull from index
 //add method/
 
 }
