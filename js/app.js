@@ -62,45 +62,36 @@ const textEl = document.querySelector('#text')
 const optionButtonsEl = document.querySelector('#option-buttons')
 const button = document.createElement('button')
 const title = document.querySelector('#title1')
+// const classBtn = ocument.querySelector('btn')
+ 
 
 /*----------------------------- Event Listeners
  -----------------------------*/
-// document.addEventListener('button')
 startButton.addEventListener('click', startGame)
+optionButtonsEl.addEventListener.apply('click', select)
 
 /*-------------------------------- Functions --------------------------------*/
 function startGame(){ 
   startButton.style.display = 'none'
   title.style.display = 'none'
   showText()
-  // textEl.style.display = 'block'
-  // optionButtonsEl.style.display = 'block'
-  // textEl.innerHTML = "Welcome to Lost on Yr Way To The Shrek Rave."
-  // optionButtonsEl.innerHTML = 
-  // `<button class="btn">Option 1</button>
-  // <button class="btn">Option 2</button>
-  // <button class="btn">Option 3</button>`
 } 
 
-function showText(){
-  const currentState = story [currentIndex]
-textEl.style.display = 'block'
-textEl.innerHTML = currentState.prompt
+function showText() {
+  const currentState = story[currentIndex];
+  textEl.style.display = 'block';
+  textEl.innerHTML = currentState.prompt;
 
-optionButtonsEl.style.display = 'block'
-optionButtonsEl.innerHTML = ''
+  optionButtonsEl.style.display = 'block';
+  optionButtonsEl.innerHTML = '';
 
-currentState.options.forEach((option, index)=>
-{
-  button.classList.add.apply('btn')
-  button.textContent = option.prompt
-  button.dataset.index = index
-  optionButtonsEl.append(button)
-})
-////currentState forEach? (blank, index)
-////button pull from index
-//add method?
-//how to get buttons
+  currentState.options.forEach((option, index) => {
+    const button = document.createElement('button'); // Create a new button for each option
+    button.classList.add('btn');
+    button.textContent = option.prompt;
+    button.dataset.index = index;
+    optionButtonsEl.appendChild(button);
+  });
 }
 
 
@@ -115,8 +106,8 @@ function select(event) {
   }
 
 }
+//too many names for button? go back and check everything tide to button
 //event
 //click?
 //displays options
-
 //story text 
