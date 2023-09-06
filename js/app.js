@@ -17,14 +17,10 @@ function startGame(){
   startButton.style.display = 'none'
   textEl.style.display = 'block'
   optionButtonsEl.style.display = 'block'
-  textEl.innerHTML = "Welcome to 'Lost on Yr Way To The Shrek Rave.'"
+  textEl.innerHTML = "Welcome to Lost on Yr Way To The Shrek Rave."
   optionButtonsEl.innerHTML = 
   `<button class="btn">Option 1</button>
   <button class="btn">Option 2</button>
   <button class="btn">Option 3</button>`
 }
 
-////remove start button after click in game mode
-//switch out welcome to before start and remove after click 
-//start first prompt
-//images
