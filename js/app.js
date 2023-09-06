@@ -86,7 +86,7 @@ function showText() {
   optionButtonsEl.innerHTML = '';
 
   currentState.options.forEach((option, index) => {
-    const button = document.createElement('button'); // Create a new button for each option
+    const button = document.createElement('button');
     button.classList.add('btn');
     button.textContent = option.prompt;
     button.dataset.index = index;
