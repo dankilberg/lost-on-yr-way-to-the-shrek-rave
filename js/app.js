@@ -86,7 +86,17 @@ textEl.innerHTML = currentState.prompt
 
 optionButtonsEl.style.display = 'block'
 optionButtonsEl.innerHTML = ''
+
+currentState.options.forEach((option, index)=>{
+  const button = document.createElement('button')
+  button.classList.add.apply('btn')
+  button.textContent = option.prompt
+  button.dataset.index = index
+  optionButtonsEl.append(button)
+})
 //currentState forEach? (blank, index)
+//button pull from index
+//add method/
 
 }
 function select(){
