@@ -1,5 +1,59 @@
 /*-------------------------------- Constants --------------------------------*/
-const story = []
+const story = [
+  {
+    prompt: "Lorem ipsum dolor sit amet",
+    options: [
+      {
+        prompt: "Mauris eleifend ipsum id justo interdum cursus.",
+        Index: 1
+      },
+      {
+        prompt: "Sed diam orci, pellentesque et lorem quis.",
+        Index: 2
+      }
+    ]
+  },
+  {
+    prompt: "Lorem ipsum dolor sit amet",
+    options: [
+      {
+        prompt: "Mauris eleifend ipsum id justo interdum cursus.",
+        Index: 3
+      },
+      {
+        prompt: "Sed diam orci, pellentesque et lorem quis.",
+        Index: 4
+      }
+    ]
+  },
+  {
+    prompt: "Lorem ipsum dolor sit amet",
+    options: [
+      {
+        prompt: "Mauris eleifend ipsum id justo interdum cursus.",
+        Index: 5
+      },
+      {
+        prompt: "Sed diam orci, pellentesque et lorem quis.",
+        Index: 6
+      }
+      
+    ]
+  },
+  {
+    prompt: "Lorem ipsum dolor sit amet",
+    options: [
+      {
+        prompt: "Mauris eleifend ipsum id justo interdum cursus.",
+        Index: 7
+      },
+      {
+        prompt: "Sed diam orci, pellentesque et lorem quis.",
+        Index: 8
+      }
+    ]
+  },
+]
 /*---------------------------- Variables (state) ----------------------------*/
  let currentIndex = {}
 /*------------------------ Cached Element References ------------------------*/
@@ -15,6 +69,7 @@ startButton.addEventListener('click', startGame)
 /*-------------------------------- Functions --------------------------------*/
 function startGame(){ 
   startButton.style.display = 'none'
+  
   showText()
   // textEl.style.display = 'block'
   // optionButtonsEl.style.display = 'block'
