@@ -35,7 +35,7 @@ const story = [
     ]
   },
   {
-    prompt: "When you walk into the emergency room, you notice fellow Shreks have made the same mistake. The toxic smell has grown stronger and you have become dizzy. Some have broke character and are pretty friendly. They went to make conversation with you.",
+    prompt: "When you walk into the emergency room, you notice fellow Shreks have made the same mistake. The toxic smell has grown stronger and you have become dizzy. Some have broke character and are pretty friendly. One of them wants to make conversation with you. As a human being cosplaying as an antisocial ogre, what do you do? ",
     options: [
       {
         prompt: "Ignore them. You're Shrek. You're an Ogrer, a loner, a rebel.",
