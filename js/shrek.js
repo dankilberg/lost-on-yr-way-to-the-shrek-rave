@@ -26,7 +26,7 @@ const story = [
     ]
   },
   {
-    prompt: "You have aleady seen the movie Shrek. Many times.",
+    prompt: "You've already seen the movie Shrek—many, many times. But it gets better everytime. So you watch it again, but you can't watch the first one without watching the second immediately after. You watch the second one, but you can't watch the second one without watching the third one immediately after. This continues. You miss the rave.",
     options: [
       {
         prompt: "Return",
@@ -75,7 +75,7 @@ const story = [
   },
 
   {
-    prompt: "Prompt 7",
+    prompt: "You begin to talk to them but you really wish you hadn't. You're not even sure if they like Shrek. The character not the movie. They like Shrek. They go on about their Lord Farquaad fan fiction and the time they met John Lithgow at Shrek expo and how he is taller and nicer than you'd expect in person or something. If you had the ability to go back to 30 minutes agao you would.",
     options: [
       {
         prompt: "Index 9",

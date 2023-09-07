@@ -9,15 +9,15 @@ body {
   align-items: center;
   width: 100vw; 
   height: 100vh;
-  background-color: aqua;
+  background-image: url(https://e0.pxfuel.com/wallpapers/74/40/desktop-wallpaper-a-cultural-evolution-of-shrek-from-blockbuster-hit-to-historic-meme-aesthetic-shrek.jpg);
 }
 
 button {
-background-color: aqua;
+background-color: #E1DFB6;
 }
 
 #start-button {
-  background-color: blueviolet;
+  background-color: #E1DFB6;
   padding: 15px;
   display: block;
   margin: auto;
@@ -28,7 +28,7 @@ background-color: aqua;
 .container {
   width: 50%;
   height: 60%;
-  background-color: white;
+  background: linear-gradient(to right, #C5EE7D, #7A9244);
   padding: 100px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
