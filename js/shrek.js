@@ -141,7 +141,7 @@ const story = [
     ]   
   },
   {
-    prompt: "..They continues. Their grandmother is sick and in a hospice they feels bad that they choose to go to the Shrek rave rather than visting their grandmother and found it ironic that they ended up in the hospital anyway. They ask you if it's ok if they can cry on your shoulder.",
+    prompt: "..They continue. Their grandmother is sick and in a hospice they feels bad that they choose to go to the Shrek rave rather than visting their grandmother and found it ironic that they ended up in the hospital anyway. They ask you if it's ok if they can cry on your shoulder. Do you let them?",
     options: [
       {
         prompt: "Let them cry on your shoulder",
@@ -244,6 +244,294 @@ const story = [
       } 
     ]   
   },
+  {
+    prompt: "Prompt 20",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 21",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 22",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 23",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 24",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 25",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 26",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 27",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 28",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 29",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 30",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 20",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 31",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 32",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 33",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 34",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 35",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 36",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 37",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 38",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 39",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  {
+    prompt: "Prompt 40",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 35
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 36
+      } 
+    ]   
+  },
+  
+
 ]
 
 export {
