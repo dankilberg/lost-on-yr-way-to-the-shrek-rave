@@ -13,7 +13,7 @@ const story = [
     ]
   },
   {
-    prompt: "You have slathered on the green paint. The smell is different, more 'chemically' than you remember. You read the label. It says, 'If even a drop of paint gets on your skin, head to the emergency room immediately. One drop can be fatal..you will die'",
+    prompt: "You have slathered on the green paint. The smell is different, more 'chemically' than you remember. You read the label. It says, 'If even a drop of paint gets on your skin, head to the emergency room immediately. One drop is fatal you will die'",
     options: [
       {
         prompt: "Head to the emergancy room",
@@ -42,7 +42,7 @@ const story = [
         nextIndex: 5
       },
       {
-        prompt: "In your heart of hearts, you know you're not really Shrek. You can talk to another person who has the same interests as you.",
+        prompt: "In your heart of hearts, you know you're not really Shrek. You can talk to another person who has the same interests as you. It's ok. ",
         nextIndex: 6
       }
     ]
