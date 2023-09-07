@@ -13,7 +13,7 @@ const story = [
     ]
   },
   {
-    prompt: "You have slathered on the green paint. The smell is different, more chemically than you remember. You read the label. It says, 'If even a drop of paint gets on your skin, head to the emergency room immediately. One drop can be fatal'",
+    prompt: "You have slathered on the green paint. The smell is different, more 'chemically' than you remember. You read the label. It says, 'If even a drop of paint gets on your skin, head to the emergency room immediately. One drop can be fatal..you will die'",
     options: [
       {
         prompt: "Head to the emergancy room",
