@@ -9,15 +9,17 @@ const optionButtonsEl = document.querySelector('#option-buttons')
 //const button = document.createElement('button')
 const title = document.querySelector('#title1')
 // const classBtn = ocument.querySelector('btn')
+const resetbtn = document.getElementById('reset')
  
 
 /*----------------------------- Event Listeners
  -----------------------------*/
 startButton.addEventListener('click', startGame)
 optionButtonsEl.addEventListener.apply('click', select)
-
+resetbtn.addEventListener('click', )
 
 /*-------------------------------- Functions --------------------------------*/
+function()
 function startGame(){ 
   startButton.style.display = 'none'
   title.style.display = 'none'
