@@ -32,6 +32,8 @@ background-color: #E1DFB6;
   padding: 100px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
+  max-width: 800px;
+  min-width: 700px;
 }
 .btn {
   display: inline-block;

@@ -3,7 +3,7 @@ const story = [
     prompt: "The Shrek rave starts in an hour, and even though you already kind of look like Shrek, you are nowhere near being Shrek. What do you do?",
     options: [
       {
-        prompt: "Slather on the Green Paint",
+        prompt: "Slather on the green paint",
         nextIndex: 1
       },
       {
@@ -48,14 +48,14 @@ const story = [
     ]
   },
   {
-    prompt: "Prompt 5",
+    prompt: "Life's to short to miss a Shrek rave. You power through the fumes give you dizzy dreamy feeling",
     options: [
       {
-        prompt: "Index 7",
+        prompt: "Whats Next",
         nextIndex: 7
       },
       {
-        prompt: "Index 8",
+        prompt: "Continue these prompts from here",
         nextIndex: 8
       }
     ]
@@ -75,14 +75,14 @@ const story = [
   },
 
   {
-    prompt: "You begin to talk to them but you really wish you hadn't. You're not even sure if they like Shrek. The character not the movie. They like Shrek. They go on about their Lord Farquaad fan fiction and the time they met John Lithgow at Shrek expo and how he is taller and nicer than you'd expect in person or something. If you had the ability to go back to 30 minutes agao you would.",
+    prompt: "You begin to talk to them but you really wish you hadn't. You're not even sure if they like Shrek. The character not the movie. They like Shrek. They go on about their Lord Farquaad fan fiction and the time they met John Lithgow at Shrek expo and how he is taller and nicer than you'd expect in person or something. If you had the ability to go back to 30 minutes agao you would?",
     options: [
       {
-        prompt: "Index 9",
+        prompt: "Keep Listening",
         nextIndex: 11
       },
       {
-        prompt: "Index 10",
+        prompt: "Go Back 30 minutes",
         nextIndex: 12
       } 
     ]  
@@ -141,14 +141,14 @@ const story = [
     ]   
   },
   {
-    prompt: "Prompt 12",
+    prompt: "..They continues. Their grandmother is sick and in a hospice they feels bad that they choose to go to the Shrek rave rather than visting their grandmother and found it ironic that they ended up in the hospital anyway. They ask you if it's ok if they can cry on your shoulder.",
     options: [
       {
-        prompt: "Index 9",
+        prompt: "Let them cry on your shoulder",
         nextIndex: 21
       },
       {
-        prompt: "Index 10",
+        prompt: "No you are Shrek you are an anti-social ogre who does not want strangers tears on their brown mini vest and tunic.",
         nextIndex: 22
       } 
     ]   
