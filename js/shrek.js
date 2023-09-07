@@ -546,7 +546,20 @@ const story = [
       }
     ]
   },
-  
+  {
+    prompt: "Prompt 5",
+    options: [
+      {
+        prompt: "Index 9",
+        nextIndex: 9
+      },
+      {
+        prompt: "Index 10",
+        nextIndex: 10
+      }
+    ]
+  },
+
 ]
 
 
