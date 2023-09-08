@@ -1,5 +1,5 @@
 # Lost on Yr Way to the Shrek Rave
-![alt text](https://i.imgur.com/92rWPHR.png)
+![alt text](https://i.imgur.com/j8fgImq.png)
 ### Link: https://shrek-rave.surge.sh/
 ### Plaining Materials: https://docs.google.com/document/d/1Mfio7pXo4IlYEQ7p3FWMhpJBGFpAbyTuFS9b2pI06Uo/edit?usp=sharing
 
