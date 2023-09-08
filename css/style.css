@@ -14,6 +14,9 @@ body {
 
 button {
 background-color: #E1DFB6;
+color: #5C452D;
+border-radius: 5px;
+box-shadow: 0 0 10px 2px;
 }
 
 h1{
@@ -37,15 +40,20 @@ h1{
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
 }
+#start-button:hover{
+  background-color:#5C452D;
+  color: #C5EE7D; 
+
+}
 #text {
   Display: flex;
   justify-content: center; 
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   display: block;
   margin: auto;
   font-family: 'Chicle', sans-serif; 
-  font-size: 30px;
+  font-size: 20px;
   color: #5C452D;
 }
 
@@ -58,9 +66,19 @@ h1{
   align-items: center;
   position: absolute;
   bottom: 100px; 
-  
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  color: #5C452D;
+  font-family: 'Chicle', sans-serif; 
   
 }
+
+#reset:hover{
+  background-color:#5C452D;
+  color: #C5EE7D; 
+
+}
+
 .container {
   width: 48%;
   height: 60%;
@@ -72,7 +90,16 @@ h1{
   min-width: 700px;
 }
 .btn {
-  display: inline-block;
-  margin: 10px;
+  Display: flex;
+  justify-content: center; 
+  align-items: center;
   padding: 15px;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: 'Chicle', sans-serif; 
+  font-size: 21px;
+  color: #5C452D;
+  margin-left: 20px;
 }
+

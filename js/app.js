@@ -1,79 +1,63 @@
-/*-------------------------------- Constants --------------------------------*/
-import { story } from "./shrek.js"
-/*---------------------------- Variables (state) ----------------------------*/
- let currentIndex = 0
-/*------------------------ Cached Element References ------------------------*/
-const startButton = document.querySelector('#start-button')
-const textEl = document.querySelector('#text')
-const optionButtonsEl = document.querySelector('#option-buttons')
-//const button = document.createElement('button')
-const title = document.querySelector('#title1')
-// const classBtn = ocument.querySelector('btn')
-const resetbtn = document.getElementById('reset')
- 
+/* -------------------------------- Constants -------------------------------- */
+import { story } from "./shrek.js";
 
-/*----------------------------- Event Listeners
- -----------------------------*/
-startButton.addEventListener('click', startGame)
-optionButtonsEl.addEventListener('click', select)
-resetbtn.addEventListener('click', resetGame )
+/* ---------------------------- Variables (state) ---------------------------- */
+let currentIndex = 0;
 
-/*-------------------------------- Functions --------------------------------*/
+/* ------------------------ Cached Element References ------------------------ */
+const startButton = document.querySelector("#start-button");
+const textEl = document.querySelector("#text");
+const optionButtonsEl = document.querySelector("#option-buttons");
+const title = document.querySelector("#title1");
+const resetbtn = document.getElementById("reset");
 
-function resetGame() {
-  currentIndex = 0
-  textEl.style.display = 'none'
-  optionButtonsEl.style.display = 'none'
-  title.style.display = 'block'
-  startButton.style.display = 'block'
-  optionButtonsEl.innerHTML = ''
+/* ----------------------------- Event Listeners ----------------------------- */
+  startButton.addEventListener("click", startGame);
+  optionButtonsEl.addEventListener("click", select);
+  resetbtn.addEventListener("click", resetGame);
+
+
+/* -------------------------------- Functions -------------------------------- */
+
+function startGame() {
+  startButton.style.display = "none";
+  title.style.display = "none";
+  showText();
 }
-
-function startGame(){ 
-  startButton.style.display = 'none'
-  title.style.display = 'none'
-  showText()
-} 
 
 function showText() {
-  const currentState = story[currentIndex]
-  textEl.style.display = 'block'
-  textEl.innerHTML = currentState.prompt
+  const currentState = story[currentIndex];
+  textEl.style.display = "block";
+  textEl.innerHTML = currentState.prompt;
 
-  optionButtonsEl.style.display = 'block'
-  optionButtonsEl.innerHTML = ''
+  optionButtonsEl.style.display = "block";
+  optionButtonsEl.innerHTML = "";
 
   currentState.options.forEach((option, index) => {
-    const button = document.createElement('button')
-    button.classList.add('btn')
-    button.textContent = option.prompt
-    button.dataset.index = index
-    button.addEventListener('click', select)
-    optionButtonsEl.appendChild(button)
-  })
+    const button = document.createElement("button");
+    button.classList.add("btn");
+    button.textContent = option.prompt;
+    button.dataset.index = index;
+    optionButtonsEl.appendChild(button);
+  });
 }
 
-
 function select(event) {
-  const indexSelect = event.target.dataset.index
-  const currentScene = story[currentIndex]
-  const selectOption = currentScene.options[indexSelect]
-  
+  const indexSelect = event.target.dataset.index;
+  const currentScene = story[currentIndex];
+  const selectOption = currentScene.options[indexSelect];
+
   if (selectOption) {
-    currentIndex = selectOption.nextIndex
-    showText()
+    currentIndex = selectOption.nextIndex;
+    showText();
   }
 }
 
-
-
-
-
-
-
-
-//too many names for button? go back and check everything tide to button
-//event
-//click?
-//displays options
-//story text 
+function resetGame() {
+  currentIndex = 0;
+  textEl.style.display = 'none';
+  optionButtonsEl.style.display = 'none';
+  title.style.display = 'block';
+  startButton.style.display = 'block';
+  optionButtonsEl.innerHTML = '';
+}
