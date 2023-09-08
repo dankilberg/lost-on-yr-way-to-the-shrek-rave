@@ -10,7 +10,7 @@ const textEl = document.querySelector("#text");
 const optionButtonsEl = document.querySelector("#option-buttons");
 const title = document.querySelector("#title1");
 const resetbtn = document.getElementById("reset");
-
+const shrekSays = new Audio("../audio/thursday.mp3")
 /* ----------------------------- Event Listeners ----------------------------- */
   startButton.addEventListener("click", startGame);
   optionButtonsEl.addEventListener("click", select);
@@ -61,3 +61,8 @@ function resetGame() {
   startButton.style.display = 'block';
   optionButtonsEl.innerHTML = '';
 }
+
+resetbtn.addEventListener("click", function(evt) {
+  shrekSays.volume = 0.05;
+  shrekSays.play();
+})
