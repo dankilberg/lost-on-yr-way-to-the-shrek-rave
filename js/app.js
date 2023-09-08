@@ -62,7 +62,7 @@ function resetGame() {
   optionButtonsEl.innerHTML = ''
 }
 
-resetbtn.addEventListener("click", function(evt) {
+resetbtn.addEventListener("click", function() {
   shrekSays.volume = 0.05
   shrekSays.play()
 })

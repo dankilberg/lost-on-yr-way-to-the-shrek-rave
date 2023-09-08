@@ -163,7 +163,7 @@ const story = [
     ]   
   },
   {
-    prompt: "You head towards Doneky, But as you get closer, you realize it's a pinata, and you have just crashed what looks like a child's birthday party. The green paint is really getting to your head.",
+    prompt: "You head towards Donkey, But as you get closer, you realize it's a pinata, and you've just crashed what looks like a child's birthday party. The green paint is really getting to your head.",
     options: [
       {
         prompt: "Run",
