@@ -16,11 +16,11 @@ const story = [
     prompt: "You have slathered on the green paint. The smell is different, more 'chemically' than you remember. You read the label. It says, 'Warning: If a drop of paint gets on your skin, head to the emergency room immediately. You could die.'",
     options: [
       {
-        prompt: "Head to the emergancy room?",
+        prompt: "Head to the emergancy room",
         nextIndex: 3
       },
       {
-        prompt: "Head to the rave?",
+        prompt: "Head to the rave",
         nextIndex: 4
       }
     ]
@@ -38,11 +38,11 @@ const story = [
     prompt: "You walk into the emergency room and notice other Shreks have made the same mistake. Some have broke character and are pretty friendly. Others are in the corner throwing up green. One of them wants to make conversation with you. What do you do?",
     options: [
       {
-        prompt: "Ignore them. You're Shrek. You're an Ogrer, a loner, a rebel.",
+        prompt: "Ignore them. You're Shrek. You're an Ogrer, a loner, a rebel",
         nextIndex: 5
       },
       {
-        prompt: "In your heart of hearts, you know you're not really Shrek. You can talk to another person who has the same interests as you. It's ok. ",
+        prompt: "In your heart of hearts, you know you're not really Shrek. You can talk to another person who has the same interests as you. It's ok ",
         nextIndex: 6
       }
     ]
@@ -51,11 +51,11 @@ const story = [
     prompt: "You don't know what that paint can was talking about. You feel great. You feel like Shrek. You feel better than Shrek. You throw up a little bit, but it's green like Shrek, so it's ok?",
     options: [
       {
-        prompt: "Continue to Rave?",
+        prompt: "Continue to Rave",
         nextIndex: 7
       },
       {
-        prompt: "Go to Hosptial?",
+        prompt: "Go to Hosptial",
         nextIndex: 3
       }
     ]
@@ -163,14 +163,14 @@ const story = [
     ]   
   },
   {
-    prompt: "Prompt 14",
+    prompt: "You head towards Doneky, But as you get closer, you realize it's a pinata, and you have just crashed what looks like a child's birthday party. The green paint is really getting to your head.",
     options: [
       {
-        prompt: "Index 9",
+        prompt: "Run",
         nextIndex: 25
       },
       {
-        prompt: "Index 10",
+        prompt: "Face the consequences",
         nextIndex: 26
       } 
     ]   
@@ -183,7 +183,7 @@ const story = [
         nextIndex: 27
       },
       {
-        prompt: "Index 10",
+        prompt: "No don't take onions from strangers",
         nextIndex: 28
       } 
     ]   
@@ -245,11 +245,11 @@ const story = [
     options: [
       {
         prompt: "Index 9",
-        nextIndex: 35
+        nextIndex: 37
       },
       {
         prompt: "Index 10",
-        nextIndex: 36
+        nextIndex: 38
       } 
     ]   
   },
@@ -258,11 +258,11 @@ const story = [
     options: [
       {
         prompt: "Index 9",
-        nextIndex: 35
+        nextIndex: 39
       },
       {
         prompt: "Index 10",
-        nextIndex: 36
+        nextIndex: 40
       } 
     ]   
   },
@@ -319,53 +319,53 @@ const story = [
     ]   
   },
   {
-    prompt: "Prompt 26",
+    prompt: "You run, but you don't get too far. The green paint has been on you too long, and it's fatal.",
     options: [
       {
-        prompt: "Index 9",
-        nextIndex: 35
+        prompt: "GAME OVER",
+        nextIndex: -1
+      },
+      // {
+      //   prompt: "Index 10",
+      //   nextIndex: 36
+      // } 
+    ]   
+  },
+  {
+    prompt: "You stay and tell the party about the fatal green paint. Luckily, they are also really into Shrek and have paint thinner. Together you all make it to the Shrek rave.",
+    options: [
+      {
+        prompt: "YOU WIN",
+        nextIndex: -1
+      },
+      // {
+      //   prompt: "Index 10",
+      //   nextIndex: 36
+      // } 
+    ]   
+  },
+  {
+    prompt: "You thank the elderly person for understanding Shrek. You take the onion. Do you bite it?",
+    options: [
+      {
+        prompt: "No. You're already sick enough as it is",
+        nextIndex: 28
       },
       {
-        prompt: "Index 10",
-        nextIndex: 36
+        prompt: "Yes Shrek would do it",
+        nextIndex: 38
       } 
     ]   
   },
   {
-    prompt: "Prompt 27",
+    prompt: "You tell the elderly person where to put it. You feel sick enough as it is. The mixture of the paint and mountain have really started to slow you down. You don't feel like Shrek",
     options: [
       {
-        prompt: "Index 9",
-        nextIndex: 35
+        prompt: "Go to hospital",
+        nextIndex: 3
       },
       {
-        prompt: "Index 10",
-        nextIndex: 36
-      } 
-    ]   
-  },
-  {
-    prompt: "Prompt 28",
-    options: [
-      {
-        prompt: "Index 9",
-        nextIndex: 35
-      },
-      {
-        prompt: "Index 10",
-        nextIndex: 36
-      } 
-    ]   
-  },
-  {
-    prompt: "Prompt 29",
-    options: [
-      {
-        prompt: "Index 9",
-        nextIndex: 35
-      },
-      {
-        prompt: "Index 10",
+        prompt: "Keep Going",
         nextIndex: 36
       } 
     ]   
@@ -462,16 +462,16 @@ const story = [
     ]   
   },
   {
-    prompt: "Prompt 36",
+    prompt: "You have gone to long with the paint on your skin. You should have listened to the paint can. It is fatal.",
     options: [
       {
-        prompt: "Index 9",
-        nextIndex: 35
+        prompt: "Game Over",
+        nextIndex: -1
       },
-      {
-        prompt: "Index 10",
-        nextIndex: 36
-      } 
+      // {
+      //   prompt: "Index 10",
+      //   nextIndex: 36
+      // } 
     ]   
   },
   {
@@ -488,16 +488,16 @@ const story = [
     ]   
   },
   {
-    prompt: "Prompt 38",
+    prompt: "Whatever was in the onion healed the toxins from the paint. You are no longer sick and make in time to the Shrek Rave!",
     options: [
       {
-        prompt: "Index 9",
-        nextIndex: 35
+        prompt: "YOU WIN!",
+        nextIndex: -1
       },
-      {
-        prompt: "Index 10",
-        nextIndex: 36
-      } 
+      // {
+      //   prompt: "Index 10",
+      //   nextIndex: 36
+      // } 
     ]   
   },
   {
