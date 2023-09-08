@@ -54,7 +54,7 @@ function select(event) {
 }
 
 function resetGame() {
-  currentIndex = 0;
+  currentIndex = 0
   textEl.style.display = 'none'
   optionButtonsEl.style.display = 'none'
   title.style.display = 'block'

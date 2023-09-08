@@ -46,7 +46,7 @@ https://app.grammarly.com/
 
 
 ### Next Steps
-First, I'd like to rebuild this and make the logic less complicated while also able to render something more descriptive on the screen.
+First, I'd like to rebuild this and make the logic less buggy while also able to render something more descriptive on the screen.
 
  Then, I'd like to make it an endless pit of nothingness, a maze that's so long, convoluted, and boring that the user gives up on its lengthy and pointless storyline.
  
