@@ -16,17 +16,53 @@ button {
 background-color: #E1DFB6;
 }
 
+h1{
+  font-family: 'Chicle', sans-serif;
+  margin:auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  color: #5C452D;
+}
+
 #start-button {
   background-color: #E1DFB6;
+  padding: 10px;
+  display: block;
+  margin:auto;
+  margin-top: 85px;
+  width: 25%;
+  font-family: 'Chicle', sans-serif;
+  font-size: 35px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+}
+#text {
+  Display: flex;
+  justify-content: center; 
+  align-items: center;
   padding: 15px;
   display: block;
   margin: auto;
-  margin-top: 85px;
-  width: 45%;
+  font-family: 'Chicle', sans-serif; 
+  font-size: 30px;
+  color: #5C452D;
 }
 
+#reset{
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 25px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: absolute;
+  bottom: 100px; 
+  
+  
+}
 .container {
-  width: 50%;
+  width: 48%;
   height: 60%;
   background: linear-gradient(to right, #C5EE7D, #7A9244);
   padding: 100px;

@@ -15,11 +15,20 @@ const resetbtn = document.getElementById('reset')
 /*----------------------------- Event Listeners
  -----------------------------*/
 startButton.addEventListener('click', startGame)
-optionButtonsEl.addEventListener.apply('click', select)
-resetbtn.addEventListener('click', )
+optionButtonsEl.addEventListener('click', select)
+resetbtn.addEventListener('click', resetGame )
 
 /*-------------------------------- Functions --------------------------------*/
-function()
+
+function resetGame() {
+  currentIndex = 0
+  textEl.style.display = 'none'
+  optionButtonsEl.style.display = 'none'
+  title.style.display = 'block'
+  startButton.style.display = 'block'
+  optionButtonsEl.innerHTML = ''
+}
+
 function startGame(){ 
   startButton.style.display = 'none'
   title.style.display = 'none'
