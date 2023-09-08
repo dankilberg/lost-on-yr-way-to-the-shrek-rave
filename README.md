@@ -25,6 +25,8 @@ https://www.gettyimages.com/
 
 https://animate.style/
 
+https://app.grammarly.com/
+
 *Shrek*, 2001 runtime 90 minutes 
 
 ### Technologies
@@ -48,4 +50,4 @@ First, I'd like to rebuild this and make the logic less complicated while also a
 
  Then, I'd like to make it an endless pit of nothingness, a maze that's so long, convoluted, and boring that the user gives up on its lengthy and pointless storyline.
  
-Or maybe it's what motivates them to get to an ending?..I'd also like to add images. 
+Or maybe it's what motivates them to get to an ending?..I'd also like to add images.
